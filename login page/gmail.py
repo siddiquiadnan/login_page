@@ -27,8 +27,8 @@ def verify_page():
         # Tls
         server.starttls()
         # gmail
-        password='ucbtbksehxgawwrd'
-        server.login('siddiquiadnan119@gmail.com',password)
+        password='#enter the password of email'
+        server.login('#enter_the_mail_of_sender@gmail.com',password)
         #OTP using random password function
         otp=''.join([str(random.randint(0,9)) for i in range(4)])
         name = entry_name.get()
